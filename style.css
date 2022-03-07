@@ -1,0 +1,18 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.arrow{
+    
+    font-size: 3rem;
+    width: 40px;
+    height: 45px;
+    position: fixed;
+    left: 1300px;
+    top: 570px;
+    display: none;
+}
+
+.arrow.active{
+    display: block;
+}
